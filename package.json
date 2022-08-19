@@ -1,0 +1,46 @@
+{
+  "name": "el-backtop",
+  "version": "0.0.1",
+  "description": "A vue backtop component",
+  "author": "au1996",
+  "main": "lib/el-backtop.min.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [
+    "backtop",
+    "vue",
+    "components",
+    "element"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/au1996/el-backtop/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "throttle-debounce": "^1.0.1"
+  }
+}
