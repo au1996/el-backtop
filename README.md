@@ -2,7 +2,7 @@
 
 一个基于 vue2.x 版本的回到顶部组件，API 跟 element-ui 保持一致。
 
-## 引入 ElDrawer
+## 引入 el-backtop
 
 在 main.js 中写入以下内容：
 
